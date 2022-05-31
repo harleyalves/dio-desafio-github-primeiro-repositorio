@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos -  align content</title>
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        .center{
+            align-content: center;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .baseline{
+            align-content: baseline;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+    <p>stretch</p>
+    <div class="container stretch">
+       <div class="item">Lorem ipsum dolor sit amet consectetur adipiscing</div>
+       <div class="item">Lorem ipsum dolor</div>
+       <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+       <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+       <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+       <div class="item">Vestibulum nec faucibus</div>
+       <div class="item">Vestibulum nec faucibus</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+    <p>baseline</p>
+    <div class="container baseline">
+        <div class="item"><br><br>ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">ipsum dolor sit amet consectetur adipiscing</div>
+        <div class="item">Lorem ipsum dolor</div>
+        <div class="item">consectetur adipiscing elit. Curabitur id semper tortor</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur </div>
+        <div class="item">ndum ipsum. Vestibulum nec faucibus qua</div>
+        <div class="item">Vestibulum nec faucibus</div>
+        <div class="item">Vestibulum nec faucibus</div>
+    </div>
+    
+</body>
+</html>
