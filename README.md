@@ -1,5 +1,6 @@
 # dio-desafio-github-primeiro-repositorio
 Desafio de Projeto sobre Git/GitHub
-
-## Links Úteis 
-[SINTAXE BASICA MARKDOWN](https://www.markdownguide.org/basic-syntax/)
+## Repositorio criado para expor resultados de exercicios e projetos do bootcamp DIO
+### Contem:
+- Exercicios do Curso de CSS FLEXBOX
+- Projeto final do Curso de CSS FLEXBOX
