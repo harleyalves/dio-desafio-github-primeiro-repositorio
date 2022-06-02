@@ -4,5 +4,9 @@ Desafio de Projeto sobre Git/GitHub
 ### Contem:
 - Exercicios do Curso de CSS FLEXBOX
  - Projetos finais do Curso de CSS FLEXBOX:
-   -  Landing Page responsiva usando flexbox: https://github.com/harleyalves/Projeto-Flexbox
-   -  Recriar instagram: https://github.com/harleyalves/Instagram
+ 
+    >Landing Page responsiva usando flexbox:
+    - https://github.com/harleyalves/Projeto-Flexbox
+       
+    >Recriar instagram:
+    - https://github.com/harleyalves/Instagram
