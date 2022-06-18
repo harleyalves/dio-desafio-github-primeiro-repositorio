@@ -10,3 +10,5 @@ Desafio de Projeto sobre Git/GitHub
        
     >Recriar instagram:
     - https://github.com/harleyalves/Instagram
+
+- Exercicios do Curso de JavaScript
