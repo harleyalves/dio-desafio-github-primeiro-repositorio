@@ -12,3 +12,6 @@ Desafio de Projeto sobre Git/GitHub
     - https://github.com/harleyalves/Instagram
 
 - Exercicios do Curso de JavaScript
+   >Desafios de TypeScript
+   - https://github.com/harleyalves/Desafios-TypeScript.git
+
