@@ -3,6 +3,9 @@ Desafio de Projeto sobre Git/GitHub
 ## Repositorio criado para expor resultados de exercicios e projetos do bootcamp DIO
 ### Contem:
 - Exercicios do Curso de CSS FLEXBOX
+- Exercicios do Curso de JavaScript
+
+### PROJETOS
  - Projetos finais do Curso de CSS FLEXBOX:
  
     >Landing Page responsiva usando flexbox:
@@ -10,8 +13,6 @@ Desafio de Projeto sobre Git/GitHub
        
     >Recriar instagram:
     - https://github.com/harleyalves/Instagram
-
-- Exercicios do Curso de JavaScript
-   >Desafios de TypeScript
+ - Desafios de TypeScript
    - https://github.com/harleyalves/Desafios-TypeScript.git
 
